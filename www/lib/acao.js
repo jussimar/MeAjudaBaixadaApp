@@ -27,3 +27,13 @@ $(location).attr("href", "dependentes.html");
 $(document).on("click","#continuar", function(){
 $(location).attr("href", "pedido.html");
 });
+
+//ações de mudança de tela ajudar
+$(document).on("click","#Ajudar", function(){
+$(location).attr("href", "ajudar.html");
+});
+
+//ações de mudança de tela lista de pessoas
+$(document).on("click","#Listadepessoas", function(){
+$(location).attr("href", "listapessoas.html");
+});
