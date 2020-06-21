@@ -1,3 +1,11 @@
 .bg-purple {
   background-color: #836FFF;
 }
+
+.text-purple {
+	color: #836FFF;
+}
+
+body {
+	background-color: #e9e6ff;
+}
