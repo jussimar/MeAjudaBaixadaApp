@@ -22,81 +22,38 @@
     <br>
     <div class="row">
       <div class="col-12">
-        <h4 class="text-purple text-center"><b>Faça seu cadastro</b></h4>
+        <h4 class="text-purple text-center"><b>Cadastre-se ou faça <a class="text-decoration-none text-purple" href="login.html"><u>login</u></a></b></h4>
         <hr>
       </div>
     </div>
     <div class="row">
       <div class="col-12">
-        <div class="form-group">
-          <input class="form-control" required placeholder="Nome" type="text" id="nome" name="nome">
-        </div>
-      </div>
-    </div>
-     <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <input class="form-control" required placeholder="E-mail" type="email" id="email" name="email">
-        </div>
-      </div>
-    </div>
-     <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <input class="form-control" required placeholder="Senha" type="password" id="senha" name="senha">
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group text-center">
-          <label class="text-purple" for="dtNasc"><b>Data de Nascimento:</b></label>
-          <input class="form-control" required placeholder="Data de nascimento" type="date" id="data" name="dtNasc">
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <input class="form-control" required placeholder="CPF" type="text" id="cpf" name="cpf" maxlength="11">
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <input class="form-control" required placeholder="Endereço" type="text" id="endereco" name="endereco">
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <input class="form-control" required placeholder="Bairro" type="text" id="bairro" name="bairro">
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <input class="form-control" required placeholder="Cidade" type="text" id="cidade" name="cidade">
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <input class="form-control" required placeholder="Telefone" type="text" id="telefone" name="telefone">
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <button type="submit" class="btn bg-purple text-white btn-block" id="PedirAjuda"><b>Pedir ajuda</b></button>
-        </div>
+        <form>
+          <input placeholder="Nome" class=" rounded form-control" type="text" name="nm_solicitante" required>
+          <br>
+          <input placeholder="CPF" class="form-control  rounded" type="text" name="cd_cpf" required>
+          <br>
+          <div class="text-center"><label class="text-purple"><b>Data de nascimento:</b></label></div>
+          <input class=" rounded form-control" type="date" name="dt_nasc_solicitante" required>
+          <br>
+          <input placeholder="Telefone ou celular para contato" class=" rounded form-control" type="text" name="cd_fone_contato_solicitante" required>
+          <hr>
+          <input placeholder="Endereço" class=" rounded form-control" type="text" name="nm_endereco_solicitante" required>
+          <br>
+          <input placeholder="Bairro" class=" rounded form-control" type="text" name="nm_bairro_solicitante" required>
+          <br>
+          <input placeholder="Cidade" class=" rounded form-control" type="text" name="nm_cidade_solicitante" required>
+          <hr>
+          <input placeholder="E-mail" class=" rounded form-control" type="email" name="nm_e-mail_solicitante" required>
+          <br>
+          <input placeholder="Senha" class=" rounded form-control" type="password" name="cd_senha_solicitante" required>
+          <hr>
+          <div class="row">
+            <div class="col-sm-12">
+              <h6 class="text-right"><button id="cadastrar" type="submit" class="btn btn-block bg-purple text-white"><b>Cadastrar</b></button></h6>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </div>
