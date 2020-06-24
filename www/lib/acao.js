@@ -15,6 +15,12 @@ $(function(){
 		window.location.href = "../www/index.html"
 	})
 
+	// Ações botão cadastrar conhecido opção Quero ajudar
+	$("#cadastrarConhecido").click(function(){
+		alert("Cadastro feito com sucesso! Faça o login e crie um pedido para seu amigo(a)!")
+		window.location.href = "../www/index.html"
+	})
+
 	//ações adicionar dependentes
 	let d = $("[id^='dd']").length;
 	$("#mais").click(function(){
