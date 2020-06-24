@@ -23,7 +23,7 @@ $(function(){
 	})
 	$("#menos").click(function(){
 		$("[id^='dd']:last-child").remove()
-  })
+  	})
 		
 
 	//ações de mudança de tela cadastro amigo
@@ -34,5 +34,5 @@ $(function(){
 	//ações de mudança de tela cadastro amigo
 	$(document).on("click","#parceiropag", function(){
 	$(location).attr("href", "desejoserparceiro.html");
-});
+	});
 })
