@@ -1,2 +1,49 @@
-/**/
+/*
+ azul -> #38b6ff
+ verde -> #2abb57
+ azul escuro -> #0091e6
+ verde claro -> #d5f6e0
+ azul claro -> #ccecff
+*/
 
+.bg-azul {
+	background-color: #38b6ff;
+}
+
+.border-azul {
+  border-color: #38b6ff;
+  border-width: 2px;
+}
+
+.border-verde {
+  border-color: #2abb57;
+  border-width: 2px;
+}
+
+.bg-azul-claro {
+	background-color: #ccecff;
+}
+
+.bg-verde {
+	background-color: #2abb57;
+}
+
+.bg-verde-claro {
+	background-color: #d5f6e0;
+}
+
+.text-azul {
+	color: #38b6ff;
+}
+
+.text-azul-escuro {
+	color: #0091e6;
+}
+
+.text-verde {
+	color: #2abb57;
+}
+
+body {
+	background-color: white;
+}
